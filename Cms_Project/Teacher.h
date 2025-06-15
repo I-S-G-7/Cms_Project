@@ -4,5 +4,7 @@
 class Teacher : public User {
 public:
 	void displayUser();
+	void markAttendance();
+	void enterGrades();
 };
 #endif
